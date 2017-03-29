@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Insert a title</title>
+    <meta charset="utf-8">
+    <style>
+      body{
+        font-size:12px;
+      }
+      #comment{
+        width:90%;
+        min-height:100px;
+        border:1px solid #D0E4C2;
+        padding:20px;
+        background-color:#fdfffa;
+      }
+      #pages a{
+        text-decoration:none;
+        color:#0c60a0;
+        border:1px solid #ccc;
+        border-radius:5px;
+        padding:4px 12px;
+      }
+      #pages a:hover{
+        background-color:#0c60a0;
+        color:#fff;
+      }
+      #pages a.current{
+        border:none;
+        background-color:transparent;
+        color:#ff6014;
+        font-weight:bold;
+      }
+      #pages{
+        width:90%;
+        margin-top:10px;
+        text-align:right;
+      }
+      #comment div.stars{
+        width:76px;
+        height:14px;
+        background:url(Images/iconlist_1.png) -108px -239px;
+      }
+      #comment div.hr{
+        border-bottom:1px solid #D0E4C2;
+        padding-bottom:10px;
+      }
+      #comment button{
+        width:80px;
+        height:38px;
+        border:1px solid #d5d5d5;
+        border-radius:3px;
+        background-image:linear-gradient(0deg,#ccc,#f8f8f8);
+        margin-right:12px;
+      }
+      #comment span.xbt{
+        color:#777;
+      }
+      #comment span.pink{
+        background-color:#fdedd3;
+        padding:4px;
+      }
+      #comment div.buttons{
+        text-align:right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="commentBox">
+      <div id="comment">
+        <div class="hr">
+          <div class="stars"></div>
+        </div>
+        <p>
+          <span class="xbt">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;签：</span>
+          <span class="pink">比洗衣粉好</span>
+          <span class="pink">去污能力强</span>
+        </p>
+        <p>
+          <span class="xbt">心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;得：</span>
+          买了几次了，挺好用的，洗的衣服很干净，以后就用它了！
+        </p>
+        <p>
+          <span class="xbt">购买日期：</span>
+          2016-12-01
+        </p>
+        <div class="buttons">
+          <button>有用(3)</button>
+          <button>回复(3)</button>
+        </div>
+      </div>
+      <div id="pages">
+        <a class="current">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href="">5</a>
+        <a href="">6</a>
+      </div>
+    </div>
+  </body>
+</html>
