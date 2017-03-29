@@ -14,6 +14,7 @@
         width:210px;
         height:40px;
         background-color:#cd2a2c;
+        float:left;
       }
       #navBox div.kind a{
         float:left;
@@ -36,6 +37,75 @@
         background-image:url(Images/iconlist_2.png);
         background-position:-65px 0px;
       }
+      #navBox ul{
+        margin:0;
+        padding:0;
+        list-style:none;
+      }
+      #navBox li{
+        float:left;
+      }
+      #navBox li a{
+        width:100px;
+        height:40px;
+        font-size:16px;
+        font-family:"宋体";
+        font-weight:bold;
+        text-decoration:none;
+        color:#fff;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+      }
+      #navBox li a:hover{
+        cursor:pointer;
+        background-color:#cd2a2c;
+      }
+      #main{
+        width:990px;
+        margin:0 auto;
+      }
+      #asideBox{
+        width:206px;
+        height:420px;
+        border:2px solid #cd2a2c;
+        border-top:0;
+        float:left;
+        background-color:#fafafa;
+        padding-top:4px;
+      }
+      #asideBox ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+      }
+      /*新增*/
+      #asideBox li{
+        padding:5px 0 5px 10px;
+        width:186px;
+        border-top:1px solid #fff;
+        border-bottom:1px solid #fff;
+      }
+      #asideBox a{
+        /*
+          width:186px;
+          height:32px;
+          line-height:32px;
+          padding-left:10px;
+          border-top:1px solid #fff;
+          border-bottom:1px solid #fff;
+        */
+        font-size:14px;
+        font-family:"宋体";
+        color:#000;
+        text-decoration:none;
+        display:inline-block;
+      }
+      #asideBox li:hover{
+        background-color:#fff;
+        border-top:1px solid #ddd;
+        border-bottom:1px solid #ddd;
+      }
     </style>
   </head>
   <body>
@@ -44,6 +114,23 @@
         <a href="">全部商品分类</a>
         <span></span>
       </div>
+        <ul>
+         <li><a href="">首页</a></li>
+          <li><a href="">服装城</a></li>
+          <li><a href="">食品</a></li>
+          <li><a href="">团购</a></li>
+          <li><a href="">夺宝岛</a></li>
+          <li><a href="">闪购</a></li>
+          <li><a href="">金融</a></li>
+        </ul>
     </nav>
+    <div id="main">
+      <aside id="asideBox">
+       <ul>
+         <li><a href="">图书、音像、数字商品</a></li>
+         <li><a href="">家用电器</a></li>
+       </ul>
+      </aside>
+    </div>
   </body>
 </html>
